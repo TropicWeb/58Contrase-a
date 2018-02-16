@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -9,9 +10,9 @@
   <title>+58MINING</title>
 
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-  <link rel="stylesheet" href="CSS/bootstrap.min.css">
-  <link rel="stylesheet" href="CSS/estilos.css">
-  <link rel="stylesheet" href="CSS/animate.css">
+  <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="../CSS/estilos.css">
+  <link rel="stylesheet" href="../CSS/animate.css">
 </head>
 
 <body>
@@ -20,22 +21,22 @@
 	<article class="row contra">
 		<article class="col-md-4"></article>
 		<article class="col-md-4 forem">
-			<form>
-				<input type="password" name="pasiq" class="contraseña center-block"> 
-				<input type="submit" value="Submit" class="boton center-block">
+			<form method="post">
+				<input type="password" name="password" class="contraseña center-block"> 
+				<input type="submit" value="Submit" class="boton center-block">				
 			</form>
 			<div class="mensajes">
 				<p class="text-center true">Contraseña correcta    <i class="fa fa-check" aria-hidden="true"></i></p>
-				<p class="text-center false">Contraseña incorrecta    <i class="fa fa-times" aria-hidden="true"></i></p>
+				<p class="text-center <?php if(!$error) echo 'false';?>">Contraseña incorrecta    <i class="fa fa-times" aria-hidden="true"></i></p>
 			</div>			
 		</article>	
 		<article class="col-md-4"></article>	
 	</article>
 </section>
 
-  <script src="JS/jquery.js"></script>
-  <script src="JS/bootstrap.min.js"></script>
-  <script src="JS/jquery.easing.min.js"></script>
-  <script src="JS/efectEntry.js"></script>
+  <script src="../JS/jquery.js"></script>
+  <script src="../JS/bootstrap.min.js"></script>
+  <script src="../JS/jquery.easing.min.js"></script>
+  <script src="../JS/efectEntry.js"></script>
 </body>
 </html>
