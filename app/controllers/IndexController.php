@@ -13,6 +13,10 @@ class IndexController extends BaseController {
 		header('Location:' . BASE_URL . 'login');
 		return null;
 	}
+
+	public function getInfo(){
+		
+	}
 }
 
 

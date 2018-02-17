@@ -11,8 +11,8 @@ class LoginController extends BaseController {
 	public function postIndex(){
 
 		$success = false;
-		$users = ['user1', 'user2', 'user3'];
-		$passwords = ['Waraira Repano', 'Araguaney', 'Auyantepuy'];
+		$users = ['admin','user1', 'user2', 'user3'];
+		$passwords = ['admin','Waraira Repano', 'Araguaney', 'Auyantepuy'];
 
 		//Check if password is correct
 		foreach ($passwords as  $key => $value) {
