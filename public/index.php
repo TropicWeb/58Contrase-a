@@ -18,10 +18,10 @@
 
 	//MIDDLEWARES
 	$router->filter('auth',function(){
-	if(!isset($_SESSION['user'])){
-	    header('Location:' . BASE_URL . 'login');
-	    return false;
-	}
+		if(!isset($_SESSION['user'])){
+		    header('Location:' . BASE_URL . 'login');
+		    return false;
+		}
 	});
 
 	//RUTAS
@@ -33,6 +33,7 @@
 		//INDEX
 		$router->controller('/', App\Controllers\IndexController::class);
 	});
+
 
 	//Respuesta del server
 	$dispatcher = new Phroute\Phroute\Dispatcher($router->getData());
