@@ -1,11 +1,16 @@
 body{
 	box-sizing: border-box;
-	background: #888DA7;
+	background: #394032;
 	
 }
 
-.row{
-	margin-top: 180px;
+
+.logi{
+	margin-top: 100px;
+}
+
+.contra{
+	margin-top: 120px;
 }
 
 .forem{
@@ -40,7 +45,7 @@ body{
 .boton{
 	display: block;
 	margin-top: 30px;
-	background-color:rgba(220, 150, 90, 0.6);
+	background-color:rgba(240, 101, 67, 0.6);
 	border:none;
 	border-radius: 30px;
 	width: 200px;
@@ -50,7 +55,7 @@ body{
 }
 
 .boton:hover{
-	background-color:rgba(220, 150, 90, 1);
+	background-color:rgba(240, 101, 67, 1);
 }
 
 .boton:focus{

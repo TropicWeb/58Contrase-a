@@ -7,8 +7,9 @@
   <meta name="description" content="Landing Page de la productora +58Films">
   <meta name="author" content="Miguel Fraga ,Diego Di Salvatore and Gabriel Taccone">
 
-  <title>+58MINING</title>
+  <title>Proyecto Libertad</title>
 
+  <link rel="icon" href="../images/Favicon.PNG">
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   <link rel="stylesheet" href="../CSS/bootstrap.min.css">
   <link rel="stylesheet" href="../CSS/estilos.css">
@@ -18,11 +19,19 @@
 <body>
 
 <section class="container-fluid">
+	<article class="row logi">
+		<article class="col-md-4"></article>
+		<article class="col-md-4">
+			<img class="img-responsive" src="../images/logo.png">
+		</article>
+		<article class="col-md-4"></article>
+	</article>
+
 	<article class="row contra">
 		<article class="col-md-4"></article>
 		<article class="col-md-4 forem">
 			<form method="post">
-				<input type="password" name="password" class="contraseña center-block"> 
+				<input type="password" name="password" class="contraseña center-block text-center"> 
 				<input type="submit" value="Submit" class="boton center-block">				
 			</form>
 			<div class="mensajes">
@@ -37,6 +46,5 @@
   <script src="../JS/jquery.js"></script>
   <script src="../JS/bootstrap.min.js"></script>
   <script src="../JS/jquery.easing.min.js"></script>
-  <script src="../JS/efectEntry.js"></script>
 </body>
 </html>
