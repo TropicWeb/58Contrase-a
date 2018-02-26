@@ -4,6 +4,9 @@ body{
 	
 }
 
+.cenl{
+	text-decoration: none;
+}
 
 .logi{
 	margin-top: 100px;
@@ -81,4 +84,8 @@ body{
 
 .false{
 	display: none;
+}
+
+.prueba{
+	margin-top: 100px;
 }

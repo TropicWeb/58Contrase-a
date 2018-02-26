@@ -7,16 +7,17 @@
   <meta name="description" content="Landing Page de la productora +58Films">
   <meta name="author" content="Miguel Fraga ,Diego Di Salvatore and Gabriel Taccone">
 
-  <title>+58MINING</title>
+  <title>Proyecto Libertad</title>
 
+  <link rel="icon" href="../images/Favicon.PNG">
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   <link rel="stylesheet" href="../CSS/bootstrap.min.css">
-  <link rel="stylesheet" href="../CSS/estilos.css">
+  <link rel="stylesheet" href="../CSS/estilos3.css">
   <link rel="stylesheet" href="../CSS/animate.css">
 </head>
 <body>
-	<section class="container-fluid">
-		<p>MODO ADMIN <?php echo 'Usuario log: ' . $_SESSION['user']; ?></p>
+
+	<section class="container-fluid infotable">
     <section class="row">
       <div class="col-md-2"></div>
   		<div class="col-md-8">
@@ -53,7 +54,12 @@
       </div>
       <div class="col-md-2"></div>
     </section>
-		<a href=" <?php echo BASE_URL;?>">Back</a>
+
+    <div class="prueba">
+      <p class="text-center clog">MODO ADMIN <?php echo '-->' . $_SESSION['user']; ?></p>
+      <p class="text-center "><a  class="weltex" href=" <?php echo BASE_URL;?>">Back</a></p>
+    </div>
+    
 	</section>
 </body>
 </html>

@@ -349,13 +349,13 @@ var requiredRevision = 2;
 	</noscript>	
 </article>
 
-<section class="container-fluid">
+<section class="container-fluid sepcon">
 	<div class="row">
 		<article class="col-md-4"></article>
 		<article class="col-md-4">
-			<p class="text-center">WELCOME!! <?php echo $_SESSION['user']; ?></p>
-			<p class="text-center <?php if($_SESSION['user']!='admin') echo 'false'; ?>"><a href="info">Reporte de entradas</a></p>
-			<p class="text-center"><a href="logout">Log out</a></p>
+			<p class="text-center weltext">WELCOME!! <?php echo $_SESSION['user']; ?></p>
+			<p class="text-center <?php if($_SESSION['user']!='admin') echo 'false'; ?>"><a class="weltext" href="info">Reporte de entradas</a></p>
+			<p class="text-center"><a class="weltext" href="logout">Log out</a></p>
 		</article>
 		<article class="col-md-4"></article>		
 	</div>		

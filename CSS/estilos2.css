@@ -5,6 +5,22 @@
 }
 
 #presenta{
-
 	background-color: #394032;
+}
+
+.sepcon{
+	margin-top:40px;
+}
+
+.weltext{
+	color: white;
+}
+
+.weltext:hover{
+	color:  #DC493A;
+	text-decoration: none;
+}
+
+a{
+	color: white;
 }

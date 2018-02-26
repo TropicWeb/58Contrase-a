@@ -1,0 +1,31 @@
+
+body{
+	box-sizing: border-box;
+	background: #394032;
+	
+}
+
+th,td,.clog{
+	color: white;
+}
+
+thead,tbody{
+	background-color: black;
+}
+
+.prueba{
+	margin-top: 50px;
+}
+
+.infotable{
+	margin-top:250px;
+}
+
+.weltex{
+	color: white;
+}
+
+.weltex:hover{
+	color: #DC493A;
+	text-decoration: none;
+}
