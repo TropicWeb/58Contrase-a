@@ -23,9 +23,11 @@ thead,tbody{
 
 .weltex{
 	color: white;
+	font-size: 25px;
 }
 
 .weltex:hover{
 	color: #DC493A;
 	text-decoration: none;
 }
+

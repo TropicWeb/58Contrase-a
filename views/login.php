@@ -32,7 +32,7 @@
 		<article class="col-md-4 forem">
 			<form method="post">
 				<input type="password" name="password" class="contraseña center-block text-center"> 
-				<input type="submit" value="Submit" class="boton center-block">				
+				<input type="submit" value="Entrar" class="boton center-block">				
 			</form>
 			<div class="mensajes">
 				<p class="text-center true">Contraseña correcta    <i class="fa fa-check" aria-hidden="true"></i></p>

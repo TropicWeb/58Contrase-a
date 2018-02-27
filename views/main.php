@@ -5,7 +5,7 @@
 <title>Proyecto Libertad</title>
 <link rel="icon" href="../images/Favicon.PNG">
 <link rel="stylesheet" type="text/css" href="../CSS/estilos2.css">
-<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 <link rel="stylesheet" href="../CSS/bootstrap.min.css">
 <script language="JavaScript" type="text/javascript">
 <!--
@@ -353,11 +353,10 @@ var requiredRevision = 2;
 	<div class="row">
 		<article class="col-md-4"></article>
 		<article class="col-md-4">
-			<p class="text-center weltext">WELCOME!! <?php echo $_SESSION['user']; ?></p>
-			<p class="text-center <?php if($_SESSION['user']!='admin') echo 'false'; ?>"><a class="weltext" href="info">Reporte de entradas</a></p>
-			<p class="text-center"><a class="weltext" href="logout">Log out</a></p>
+			<p class="text-center test <?php if($_SESSION['user']!='admin') echo 'false'; ?>"><a class="weltext" href="info">Reporte de entradas <i class="fas fa-clipboard-list"></i></a></p>	
+			<p class="text-center test"><a class="weltext" href="logout">Salir <i class="fas fa-power-off"></i></a></p>			
 		</article>
-		<article class="col-md-4"></article>		
+		<article class="col-md-4"></article>	
 	</div>		
 </section>
 	

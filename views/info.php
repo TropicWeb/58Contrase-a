@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta name="description" content="Landing Page de la productora +58Films">
+  <meta name="description" content="Info +58Films">
   <meta name="author" content="Miguel Fraga ,Diego Di Salvatore and Gabriel Taccone">
 
   <title>Proyecto Libertad</title>
@@ -56,8 +56,7 @@
     </section>
 
     <div class="prueba">
-      <p class="text-center clog">MODO ADMIN <?php echo '-->' . $_SESSION['user']; ?></p>
-      <p class="text-center "><a  class="weltex" href=" <?php echo BASE_URL;?>">Back</a></p>
+      <p class="text-center "><a  class="weltex" href=" <?php echo BASE_URL;?>">Volver <i class="far fa-arrow-alt-circle-left"></i></a></p>
     </div>
     
 	</section>

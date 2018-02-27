@@ -9,11 +9,12 @@
 }
 
 .sepcon{
-	margin-top:40px;
+	margin-top:60px;
 }
 
 .weltext{
 	color: white;
+	font-size: 25px;
 }
 
 .weltext:hover{
@@ -28,3 +29,4 @@ a{
 .false{
 	display: none;
 }
+
