@@ -300,9 +300,6 @@ var requiredRevision = 2;
 
 
 
-
-
-
 <body id="presenta">
 <!--url's used in the movie-->
 <!--text used in the movie-->
@@ -311,43 +308,44 @@ var requiredRevision = 2;
 	<!--
 	var hasRightVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
 	if(hasRightVersion) {  // if we've detected an acceptable version
-		// embed the flash movie
-		AC_FL_RunContent(
-			'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,2,0',
-			'width', '800',
-			'height', '600',
-			'src', 'presentacion FANB',
-			'quality', 'high',
-			'pluginspage', 'http://www.adobe.com/go/getflashplayer',
-			'align', 'middle',
-			'play', 'false',
-			'loop', 'false',
-			'scale', 'noscale',
-			'wmode', 'window',
-			'devicefont', 'false',
-			'id', 'presentacion FANB',
-			'bgcolor', '#394032',
-			'name', 'presentacion FANB',
-			'menu', 'true',
-			'allowFullScreen', 'true',
-			'allowScriptAccess','sameDomain',
-			'movie', 'presentacion FANB',
-			'salign', ''
-			); //end AC code
+	// embed the flash movie
+	AC_FL_RunContent(
+		'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,2,0',
+		'width', '800',
+		'height', '600',
+		'src', 'presentacion FANB',
+		'quality', 'high',
+		'pluginspage', 'http://www.adobe.com/go/getflashplayer',
+		'align', 'middle',
+		'play', 'false',
+		'loop', 'false',
+		'scale', 'noscale',
+		'wmode', 'window',
+		'devicefont', 'false',
+		'id', 'presentacion FANB',
+		'bgcolor', '#999999',
+		'name', 'presentacion FANB',
+		'menu', 'true',
+		'allowFullScreen', 'true',
+		'allowScriptAccess','sameDomain',
+		'movie', 'presentacion FANB',
+		'salign', ''
+		); //end AC code
 	} else {  // flash is too old or we can't detect the plugin
-		var alternateContent = '<p>This content requires version '
-			+ requiredMajorVersion + '.' + requiredMinorVersion + '.' + requiredRevision + ' '
-			+ 'or higher of the Adobe Flash Player.</p>'
-			+ '<a href="http://www.adobe.com/go/getflashplayer/">Get Flash</a>';
-		document.write(alternateContent);  // insert non-flash content
+	var alternateContent = '<p>This content requires version '
+		+ requiredMajorVersion + '.' + requiredMinorVersion + '.' + requiredRevision + ' '
+		+ 'or higher of the Adobe Flash Player.</p>'
+		+ '<a href="http://www.adobe.com/go/getflashplayer/">Get Flash</a>';
+	document.write(alternateContent);  // insert non-flash content
 	}
 	// -->
 	</script>
 	<noscript>
   		This content requires the Adobe Flash Player.
   		<a href="http://www.adobe.com/go/getflashplayer/">Get Flash</a>
-	</noscript>	
+	</noscript>
 </article>
+
 
 <section class="container-fluid sepcon">
 	<div class="row">
@@ -359,6 +357,6 @@ var requiredRevision = 2;
 		<article class="col-md-4"></article>	
 	</div>		
 </section>
-	
+
 </body>
 </html>
