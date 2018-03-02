@@ -9,11 +9,11 @@
 
   <title>Proyecto Libertad</title>
 
-  <link rel="icon" href="../images/Favicon.PNG">
+  <link rel="icon" href="/images/Favicon.PNG">
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-  <link rel="stylesheet" href="../CSS/bootstrap.min.css">
-  <link rel="stylesheet" href="../CSS/estilos.css">
-  <link rel="stylesheet" href="../CSS/animate.css">
+  <link rel="stylesheet" href="/CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="/CSS/estilos.css">
+  <link rel="stylesheet" href="/CSS/animate.css">
 </head>
 
 <body>
@@ -43,8 +43,8 @@
 	</article>
 </section>
 
-  <script src="../JS/jquery.js"></script>
-  <script src="../JS/bootstrap.min.js"></script>
-  <script src="../JS/jquery.easing.min.js"></script>
+  <script src="/JS/jquery.js"></script>
+  <script src="/JS/bootstrap.min.js"></script>
+  <script src="/JS/jquery.easing.min.js"></script>
 </body>
 </html>

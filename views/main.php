@@ -3,10 +3,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Proyecto Libertad</title>
-<link rel="icon" href="../images/Favicon.PNG">
-<link rel="stylesheet" type="text/css" href="../CSS/estilos2.css">
+<link rel="icon" href="/images/Favicon.PNG">
+<link rel="stylesheet" type="text/css" href="/CSS/estilos2.css">
 <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-<link rel="stylesheet" href="../CSS/bootstrap.min.css">
+<link rel="stylesheet" href="/CSS/bootstrap.min.css">
 <script language="JavaScript" type="text/javascript">
 <!--
 //v1.7

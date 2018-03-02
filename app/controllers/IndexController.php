@@ -19,7 +19,7 @@ class IndexController extends BaseController {
 	    	header('Location:' . BASE_URL);
 	    	return null;
 		}
-		$fileEntradas = fopen(dirname(__FILE__) . '\..\..\Entradas.txt', 'r');
+		$fileEntradas = fopen(dirname(__FILE__) . '/../../Entradas.txt', 'r');
 		if($fileEntradas){
 			for ($i=0; $i < 3; $i++) { 
 				$linea = fgets($fileEntradas);
