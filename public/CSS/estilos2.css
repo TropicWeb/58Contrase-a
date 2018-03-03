@@ -1,7 +1,11 @@
+body{
+	box-sizing: border-box;
+}
+
 .prese{
 	height: 600px;
 	width: 800px;
-	margin: 80 auto 0 auto;
+	margin: 0 auto 0 auto;
 }
 
 #presenta{
@@ -11,6 +15,11 @@
 .sepcon{
 	margin-top:60px;
 }
+
+.sepvide{
+	margin-top: 30px;
+}
+
 
 .weltext{
 	color: white;
@@ -30,3 +39,17 @@ a{
 	display: none;
 }
 
+.videox{
+	display: block;
+	margin: 0 auto 0 auto;
+}
+
+.repro{
+	height: 800px;
+	width: 600px;
+	border:none;
+}
+
+.separacion{
+	margin-top: 100px;
+}

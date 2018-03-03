@@ -3,10 +3,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Proyecto Libertad</title>
-<link rel="icon" href="../images/Favicon.PNG">
-<link rel="stylesheet" type="text/css" href="../CSS/estilos2.css">
-<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-<link rel="stylesheet" href="../CSS/bootstrap.min.css">
+<link rel="icon" href="images/favicon.png">
+<link rel="stylesheet" type="text/css" href="CSS/estilos2.css">
+<link rel="stylesheet" href="CSS/bootstrap.min.css">
 <script language="JavaScript" type="text/javascript">
 <!--
 //v1.7
@@ -303,60 +302,72 @@ var requiredRevision = 2;
 <body id="presenta">
 <!--url's used in the movie-->
 <!--text used in the movie-->
-<article class="prese">
-	<script language="JavaScript" type="text/javascript">
-	<!--
-	var hasRightVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
-	if(hasRightVersion) {  // if we've detected an acceptable version
-	// embed the flash movie
-	AC_FL_RunContent(
-		'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,2,0',
-		'width', '800',
-		'height', '600',
-		'src', 'presentacion FANB',
-		'quality', 'high',
-		'pluginspage', 'http://www.adobe.com/go/getflashplayer',
-		'align', 'middle',
-		'play', 'false',
-		'loop', 'false',
-		'scale', 'noscale',
-		'wmode', 'window',
-		'devicefont', 'false',
-		'id', 'presentacion FANB',
-		'bgcolor', '#999999',
-		'name', 'presentacion FANB',
-		'menu', 'true',
-		'allowFullScreen', 'true',
-		'allowScriptAccess','sameDomain',
-		'movie', 'presentacion FANB',
-		'salign', ''
-		); //end AC code
-	} else {  // flash is too old or we can't detect the plugin
-	var alternateContent = '<p>This content requires version '
-		+ requiredMajorVersion + '.' + requiredMinorVersion + '.' + requiredRevision + ' '
-		+ 'or higher of the Adobe Flash Player.</p>'
-		+ '<a href="http://www.adobe.com/go/getflashplayer/">Get Flash</a>';
-	document.write(alternateContent);  // insert non-flash content
-	}
-	// -->
-	</script>
-	<noscript>
-  		This content requires the Adobe Flash Player.
-  		<a href="http://www.adobe.com/go/getflashplayer/">Get Flash</a>
-	</noscript>
-</article>
 
-
-<section class="container-fluid sepcon">
-	<div class="row">
-		<article class="col-md-4"></article>
-		<article class="col-md-4">
-			<p class="text-center test <?php if($_SESSION['user']!='admin') echo 'false'; ?>"><a class="weltext" href="info">Reporte de entradas <i class="fas fa-clipboard-list"></i></a></p>	
-			<p class="text-center test"><a class="weltext" href="logout">Salir <i class="fas fa-power-off"></i></a></p>			
-		</article>
-		<article class="col-md-4"></article>	
-	</div>		
+<section class="container-fluid">
+	<article class="col-md-2"></article>
+	<article class="col-md-8">
+		<div class="row">
+			<video class="videox" width="800" height="500" controls>
+				<source src="Media/FANB.mp4" type="video/mp4">
+			</video>
+		</div>		
+	</article>	
+	<article class="col-md-2"></article>
 </section>
+ 
+
+<section class="container-fluid sepvide">
+	<div class="row">
+		<article class="prese">
+			<script language="JavaScript" type="text/javascript">
+			<!--
+			var hasRightVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+			if(hasRightVersion) {  // if we've detected an acceptable version
+			// embed the flash movie
+			AC_FL_RunContent(
+				'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,2,0',
+				'width', '800',
+				'height', '600',
+				'src', 'presentacion FANB',
+				'quality', 'high',
+				'pluginspage', 'http://www.adobe.com/go/getflashplayer',
+				'align', 'middle',
+				'play', 'false',
+				'loop', 'false',
+		     	'scale', 'noscale',
+				'wmode', 'window',
+				'devicefont', 'false',
+				'id', 'presentacion FANB',
+				'bgcolor', '#999999',
+				'name', 'presentacion FANB',
+				'menu', 'true',
+				'allowFullScreen', 'true',
+				'allowScriptAccess','sameDomain',
+				'movie', 'presentacion FANB',
+				'salign', ''
+				); //end AC code
+			} else {  // flash is too old or we can't detect the plugin
+			var alternateContent = '<p>This content requires version '
+				+ requiredMajorVersion + '.' + requiredMinorVersion + '.' + requiredRevision + ' '
+				+ 'or higher of the Adobe Flash Player.</p>'
+				+ '<a href="http://www.adobe.com/go/getflashplayer/">Get Flash</a>';
+			document.write(alternateContent);  // insert non-flash content
+			}
+			// -->
+			</script>
+			<noscript>
+		  		This content requires the Adobe Flash Player.
+		  		<a href="http://www.adobe.com/go/getflashplayer/">Get Flash</a>
+			</noscript>
+		</article>	
+	</div>
+</section>
+
+<article class="separacion">
+	<p class="text-center test <?php if($_SESSION['user']!='admin') echo 'false'; ?>"><a class="weltext" href="info">Reporte de entradas <i class="fas fa-clipboard-list"></i></a></p>	
+	<p class="text-center test"><a class="weltext" href="logout">Salir <i class="fas fa-power-off"></i></a></p>	
+</article>	
+
 
 </body>
 </html>

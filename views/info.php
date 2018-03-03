@@ -9,11 +9,11 @@
 
   <title>Proyecto Libertad</title>
 
-  <link rel="icon" href="../images/Favicon.PNG">
+  <link rel="icon" href="images/favicon.png">
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-  <link rel="stylesheet" href="../CSS/bootstrap.min.css">
-  <link rel="stylesheet" href="../CSS/estilos3.css">
-  <link rel="stylesheet" href="../CSS/animate.css">
+  <link rel="stylesheet" href="CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="CSS/estilos3.css">
+  <link rel="stylesheet" href="CSS/animate.css">
 </head>
 <body>
 
