@@ -4,6 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Proyecto Libertad</title>
 <link rel="icon" href="images/favicon.png">
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 <link rel="stylesheet" type="text/css" href="CSS/estilos2.css">
 <link rel="stylesheet" href="CSS/bootstrap.min.css">
 <script language="JavaScript" type="text/javascript">
@@ -307,7 +308,7 @@ var requiredRevision = 2;
 	<article class="col-md-2"></article>
 	<article class="col-md-8">
 		<div class="row">
-			<video class="videox" width="800" height="500" controls>
+			<video class="videox" width="800" height="500" controls preload>
 				<source src="Media/FANB.mp4" type="video/mp4">
 			</video>
 		</div>		
@@ -364,7 +365,7 @@ var requiredRevision = 2;
 </section>
 
 <article class="separacion">
-	<p class="text-center test <?php if($_SESSION['user']!='admin') echo 'false'; ?>"><a class="weltext" href="info">Reporte de entradas <i class="fas fa-clipboard-list"></i></a></p>	
+	<p class="text-center test <?php if($_SESSION['user']!='admin') echo 'false'; ?>"><a class="weltext" href="info">Reporte de entradas <i class="fas fa-list-alt"></i></a></p>	
 	<p class="text-center test"><a class="weltext" href="logout">Salir <i class="fas fa-power-off"></i></a></p>	
 </article>	
 
