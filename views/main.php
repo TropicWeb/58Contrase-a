@@ -7,6 +7,10 @@
 <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 <link rel="stylesheet" type="text/css" href="CSS/estilos2.css">
 <link rel="stylesheet" href="CSS/bootstrap.min.css">
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
 <script language="JavaScript" type="text/javascript">
 <!--
 //v1.7
@@ -348,10 +352,7 @@ var requiredRevision = 2;
 				'salign', ''
 				); //end AC code
 			} else {  // flash is too old or we can't detect the plugin
-			var alternateContent = '<p>This content requires version '
-				+ requiredMajorVersion + '.' + requiredMinorVersion + '.' + requiredRevision + ' '
-				+ 'or higher of the Adobe Flash Player.</p>'
-				+ '<a href="http://www.adobe.com/go/getflashplayer/">Get Flash</a>';
+			var alternateContent = '<div class="container-fluid">	<div class="row">		<article class="col-xs-1 col-sm-1 col-md-1"></article>		<article class="col-xs-10 col-sm-10 col-md-10">					<section class="carrusel">			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">			  <!-- Indicators -->			  		  <!-- Wrapper for slides -->			  <div class="carousel-inner" role="listbox">			    <div class="item active">			      <img class="img-responsive" src="images/1.jpg">			      <div class="carousel-caption"></div>			    </div>			    <div class="item ">			      <img  class="img-responsive" src="images/2.jpg">			      <div class="carousel-caption"></div>			    </div>			    <div class="item">			      <img class="img-responsive" src="images/3.jpg">			      <div class="carousel-caption"></div>			    </div>			    <div class="item">			      <img class="img-responsive" src="images/4.jpg">			      <div class="carousel-caption"></div>			    </div>			    <div class="item">			      <img class="img-responsive" src="images/5.jpg">			      <div class="carousel-caption"></div>			    </div>			  </div>			  <!-- Controls -->			  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">			    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>			    <span class="sr-only">Previous</span>			  </a>			  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">			    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>			    <span class="sr-only">Next</span>			  </a>			</div>				</section>	</article>	<article class="col-xs-1 col-sm-1 col-md-1"></article>	</div></div>';
 			document.write(alternateContent);  // insert non-flash content
 			}
 			// -->
@@ -364,11 +365,14 @@ var requiredRevision = 2;
 	</div>
 </section>
 
+
 <article class="separacion">
 	<p class="text-center test <?php if($_SESSION['user']!='admin') echo 'false'; ?>"><a class="weltext" href="info">Reporte de entradas <i class="fas fa-list-alt"></i></a></p>	
 	<p class="text-center test"><a class="weltext" href="logout">Salir <i class="fas fa-power-off"></i></a></p>	
 </article>	
 
+<script src="JS/carousel.js"></script>
+<script src="JS/bootstrap.min.js"></script>
 
 </body>
 </html>
