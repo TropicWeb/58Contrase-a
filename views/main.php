@@ -308,7 +308,7 @@ var requiredRevision = 2;
 	<article class="col-md-2"></article>
 	<article class="col-md-8">
 		<div class="row">
-			<video class="videox" width="800" height="500" controls preload>
+			<video class="videox" width="800" height="500" controls>
 				<source src="Media/FANB.mp4" type="video/mp4">
 			</video>
 		</div>		
