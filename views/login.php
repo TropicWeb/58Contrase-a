@@ -20,16 +20,16 @@
 
 <section class="container-fluid">
 	<article class="row logi">
-		<article class="col-md-4"></article>
-		<article class="col-md-4">
+		<article class="col-md-4 col-xs-2 col-sm-2"></article>
+		<article class="col-md-4 col-xs-8 col-sm-8">
 			<img class="img-responsive" src="images/logo.png">
 		</article>
-		<article class="col-md-4"></article>
+		<article class="col-md-4 col-xs-2 col-sm-2"></article>
 	</article>
 
 	<article class="row contra">
-		<article class="col-md-4"></article>
-		<article class="col-md-4 forem">
+		<article class="col-md-4 col-xs-2 col-sm-2"></article>
+		<article class="col-md-4 col-xs-8 col-sm-8 forem">
 			<form method="post">
 				<input type="password" name="password" class="contraseña center-block text-center"> 
 				<input type="submit" value="Entrar" class="boton center-block">				
@@ -39,7 +39,7 @@
 				<p class="text-center <?php if(!$error) echo 'false';?>">Contraseña incorrecta    <i class="fa fa-times" aria-hidden="true"></i></p>
 			</div>			
 		</article>	
-		<article class="col-md-4"></article>	
+		<article class="col-md-4 col-xs-2 col-sm-2"></article>	
 	</article>
 </section>
 
